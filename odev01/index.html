@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Kediyi Bul</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="code.js"></script>
+        <script>
+            createRandomNumbers();
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h2 class="heading">Kedi Bulmaca</h2>
+            <div class="mesaj" id="bulmacaDivId">
+                <p id="alanId">Kedi kartını bulmak için kartın üzerine tıklamalısın</p>
+                <p id="kazandiId" style="display: none"></p>
+                <p id="yenildiId" style="display: none"></p>
+            </div>
+            <div class="card-div">
+                <img id="img0" class="kart" src="images/blue.png" onclick="newImage(); onClickedImage();">
+                <img id="img1" class="kart" src="images/blue.png" onclick="newImage(); onClickedImage();">
+                <img id="img2" class="kart" src="images/blue.png" onclick="newImage(); onClickedImage();">
+            </div>
+        </div>
+    </body>
+</html>

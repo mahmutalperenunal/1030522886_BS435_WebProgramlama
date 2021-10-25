@@ -1,0 +1,54 @@
+html, body{
+    margin: 0;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.kart {
+    align-items: center;
+    width: 100px;
+    height: 150px;
+}
+
+.card-div {
+    align-items: center;
+}
+
+.mesaj {
+    display: flex;
+    flex-direction: column;
+    min-width: 50%; 
+    align-items: center;
+}
+
+.heading {
+    font-size: 4em;
+}
+
+.alanId {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.kazandiId {
+    background-color: #ebe9e4;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #787774;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.yenildiId   {
+    background-color: #ebe9e4;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #787774;
+    border-radius: 5px;
+    width: 80%;
+}
